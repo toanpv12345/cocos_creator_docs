@@ -1,0 +1,24 @@
+{
+    "name": "sbweb",
+    "version": "0.0.1",
+    "description": "Hotupdate",
+    "author": "meego",
+    "main": "main.js",
+    "main-menu": {
+        "Extension/Hotupdate": {
+            "message": "sbweb:open"
+        }
+    },
+    "panel": {
+        "main": "panel/index.js",
+        "type": "dockable",
+        "title": "Hotupdate",
+        "width": 580,
+        "min-width": 580,
+        "max-width": 580,
+        "height": 400,
+        "min-height": 400,
+        "max-height": 400,
+        "resizable": false
+    }
+}

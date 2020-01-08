@@ -1,0 +1,40 @@
+<section>
+<ui-section>
+    <div class="header">Common</div>            
+    <ui-prop name="Subpackage Name" tooltip="The default value is empty for the gate ">
+        <ui-input id="txtSubpackage" style="width: 300px"></ui-input>
+    </ui-prop>
+</ui-section>
+<ui-section>
+    <div class="header">Native</div>
+    <ui-prop name="Deploy Folder" tooltip="Destination deploy folder">
+        <ui-input id="txtDirNative" style="width: 300px"></ui-input>
+        <ui-button id="btnDirNative" class="green">...</ui-button>      
+    </ui-prop>
+    <ui-prop name="Host" tooltip="Hot for hotupdate">
+        <ui-input id="txtHostNative" style="width: 300px"></ui-input>
+    </ui-prop>    
+    <ui-prop name="Version" tooltip="Version">
+        <ui-num-input id="txtVersion" min="0" step="1"></ui-num-input>
+    </ui-prop>
+    <ui-prop name="Auto" tooltip="Auto increase version number">
+        <ui-checkbox id="chkAuto"></ui-checkbox>
+    </ui-prop>
+</ui-section>
+<ui-section>
+    <div class="header">Web</div>
+    <ui-prop name="Deploy Folder" tooltip="Destination deploy folder">
+        <ui-input id="txtDirWeb" style="width: 300px"></ui-input>
+        <ui-button id="btnDirWeb" class="green">...</ui-button>      
+    </ui-prop>
+    <ui-prop name="Host" tooltip="Hot for hotupdate">
+        <ui-input id="txtHostWeb" style="width: 300px"></ui-input>
+    </ui-prop>
+</ui-section>
+<hr />
+<ui-button id="btnClose" class="red">Close</ui-button>
+<!--<hr />
+<div>State: <span id="label">--</span></div>
+-->
+</section>
+
